@@ -8,14 +8,14 @@ The project will be divided into five major steps. I will utilise various tools 
 
 ## Tools and Technologies I’ll Use
 
-    ### Microsoft Fabric:
-        Data Factory: For data ingestion and ETL processes.
-        Synapse Data Engineering: For data transformation with Spark notebooks.
-        Synapse Data Science: For sentiment analysis using a text analytics ML model.
-        Power BI: For creating data visualizations and dashboards.
-        Data Activator: For setting up real-time alerts based on sentiment.
+### Microsoft Fabric:
+    Data Factory: For data ingestion and ETL processes.
+    Synapse Data Engineering: For data transformation with Spark notebooks.
+    Synapse Data Science: For sentiment analysis using a text analytics ML model.
+    Power BI: For creating data visualizations and dashboards.
+    Data Activator: For setting up real-time alerts based on sentiment.
 
-    External Data Source:
-        Bing News API: For fetching the latest news articles related to the US election in Australia.
+### External Data Source:
+    Bing News API: For fetching the latest news articles related to the US election in Australia.
 
 
