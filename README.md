@@ -15,7 +15,4 @@ The project will be divided into five major steps. I will utilise various tools 
     Power BI: For creating data visualizations and dashboards.
     Data Activator: For setting up real-time alerts based on sentiment.
 
-### External Data Source:
-    Bing News API: For fetching the latest news articles related to the US election in Australia.
-
 
