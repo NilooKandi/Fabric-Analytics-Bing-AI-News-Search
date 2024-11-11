@@ -39,7 +39,7 @@ PySpark, Synapse Data Science: Text analytics, sentiment analysis (positive, neg
 Delta Lake: Building and managing data warehouses for analytics reporting  
 
 **Power BI Data Visualisation**  
-Power BI: Data gathering, Power Query, Data Modelling, Report Design, DAX (Data Analysis Expressions), business and analytics reporting, performance optimisation, deployment to Power BI Service, scalability  
+Power BI: Data gathering, Power Query, Data Modelling, Report Design, DAX, business and analytics reporting, performance optimisation, deployment to Power BI Service, scalability  
 
 **Continuous Improvement**  
 Optimising ETL processes, scaling data pipelines and reports, monitoring workflows for performance improvements and data accuracy  
