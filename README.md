@@ -52,6 +52,14 @@ Data Activator: Configuring real-time alerts based on sentiment thresholds, inte
 ### Environment Setups
 I created a resource group called `rg-fabric-bing-analytics` and used the marketplace to search for the Bing Search v7 API to create a Bing Search resource. I selected the **F1** pricing tier (3 calls per second and 1,000 calls per month) because it is free.
 
+### Data Ingestion
+
+I used the relevant query parameter related to the US election news in Australia. The query parameter q=latest+news+US+election&count=100&freshness=Week&mkt=en-AU filters the search to retrieve up to 100 news articles related to the US election, published within the past week, and ensures the results are from Australia.
+
+[View the Query Parameter Sample](https://github.com/NilooKandi/Fabric-Analytics-Bing-News-Search/blob/main/Query%20Parameter.md)
+
+
+
 
 
 
