@@ -53,10 +53,26 @@ Data Activator: Configuring real-time alerts based on sentiment thresholds, inte
 I created a resource group called `rg-fabric-bing-analytics` and used the marketplace to search for the Bing Search v7 API to create a Bing Search resource. I selected the **F1** pricing tier (3 calls per second and 1,000 calls per month) because it is free.
 
 ### Data Ingestion
+I created a lakehouse called `Bing_LH` to configure both the source and destination for data ingestion.
 
-I used the relevant query parameter related to the US election news in Australia. The query parameter q=latest+news+US+election&count=100&freshness=Week&mkt=en-AU filters the search to retrieve up to 100 news articles related to the US election, published within the past week, and ensures the results are from Australia.
-
+#### Source Configuration:
+- Design a pipeline in Data Factory to fetch data from Bing News.
+- Use the Copy Data activity to move data from the Bing News API to OneLake.
+- Set up a connection to the Bing News API using the REST API in the Data Factory.
+- Configure the API with necessary parameters such as query, filters, and API key. The query parameter retrieves up to 100 news articles related to the US election, published within the past week, and ensures the results are from Australia.
 [View the Query Parameter Sample](https://github.com/NilooKandi/Fabric-Analytics-Bing-News-Search/blob/main/Query%20Parameter.md)
+
+#### Destination Configuration:
+
+- The destination is set to the `Bing_LH` lakehouse.
+- A file path called `bing-us-election-news.json` is created.
+- The file format is set to **JSON**.
+
+### Data Transformation with Incremental Loading
+
+
+
+
 
 
 
