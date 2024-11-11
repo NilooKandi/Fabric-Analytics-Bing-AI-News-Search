@@ -21,27 +21,31 @@ The project will be divided into five major steps. I will utilise various tools 
 
 ## Analytics Engineering Technical Skills
 
-- **ETL & Data Ingestion**:  
-  Proficient with **Azure Data Factory** for data ingestion, connecting to APIs (Bing News API), and scheduling data pipelines.
+### Analytics Engineering Technical Skills
 
-- **Data Transformation**:  
-  Experienced with **PySpark** in **Synapse Data Engineering** to process and transform raw JSON data into structured Delta tables.
+**Data Ingestion**  
+Data Pipeline: Azure Data Factory, incremental load, scheduled refresh  
 
-- **Cloud Data Management**:  
-  Skilled in **OneLake** and **Delta Lake** for managing data storage and ensuring optimised, scalable data pipelines.
+**Data Transformation & Pipeline**  
+PySpark: Transforming raw JSON data, Synapse Data Engineering for data processing and optimisation, automated pipelines with Azure Data Factory  
 
-- **SQL & Data Modeling**:  
-  Writing **SQL** queries to interact with **Delta tables** and designing clean, structured data models for analysis.
+**Cloud Data Management & Storage**  
+OneLake, Lakehouse architectures: Storing raw JSON data in Lakehouse, transforming to Delta tables for optimised queries  
 
-- **Sentiment Analysis**:  
-  Using **PySpark** and **Synapse Data Science** for text analytics and sentiment classification (positive, negative, neutral) on news data.
+**Data Science & Sentiment Analysis**  
+PySpark, Synapse Data Science: Text analytics, sentiment analysis (positive, negative, neutral) using ML models  
 
-- **Data Visualisation**:  
-  Building **Power BI** dashboards to visualise sentiment trends, article analysis, and real-time updates.
+**Data Warehousing & Analytics**  
+Delta Lake: Building and managing data warehouses for analytics reporting  
 
-- **Real-time Alerts**:  
-  Configuring **Data Activator** to trigger automated alerts based on sentiment thresholds (e.g., negative sentiment) to **Microsoft Teams**.
+**Power BI Data Visualisation**  
+Power BI: Data gathering, Power Query, Data Modelling, Report Design, DAX (Data Analysis Expressions), business and analytics reporting, performance optimisation, deployment to Power BI Service, scalability  
 
+**Continuous Improvement**  
+Optimising ETL processes, scaling data pipelines and reports, monitoring workflows for performance improvements and data accuracy  
+
+**Real-time Alerts & Monitoring**  
+Data Activator: Configuring real-time alerts based on sentiment thresholds, integrating with Microsoft Teams for automated notifications  
 
 
 
