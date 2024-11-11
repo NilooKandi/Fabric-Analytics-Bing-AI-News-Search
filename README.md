@@ -13,14 +13,14 @@ The project will be divided into five major steps. I will utilise various tools 
 - **Data Factory**: For data ingestion and ETL processes.
 - **Synapse Data Engineering**: For data transformation with Spark notebooks.
 - **Synapse Data Science**: For sentiment analysis using a text analytics ML model.
-- **Power BI**: For creating data visualizations and dashboards.
+- **Power BI**: For creating data visualisations and dashboards.
 - **Data Activator**: For setting up real-time alerts based on sentiment.
 
 ### External Data Source:
 - **Bing News API**: For fetching the latest news articles related to the US election in Australia.
 
 ### Analytics Engineering Technical Skills
----
+
 - **ETL & Data Ingestion**:  
   Proficient with **Azure Data Factory** for data ingestion, connecting to APIs (Bing News API), and scheduling data pipelines.
 
@@ -28,7 +28,7 @@ The project will be divided into five major steps. I will utilise various tools 
   Experienced with **PySpark** in **Synapse Data Engineering** to process and transform raw JSON data into structured Delta tables.
 
 - **Cloud Data Management**:  
-  Skilled in **OneLake** and **Delta Lake** for managing data storage and ensuring optimized, scalable data pipelines.
+  Skilled in **OneLake** and **Delta Lake** for managing data storage and ensuring optimised, scalable data pipelines.
 
 - **SQL & Data Modeling**:  
   Writing **SQL** queries to interact with **Delta tables** and designing clean, structured data models for analysis.
@@ -36,13 +36,13 @@ The project will be divided into five major steps. I will utilise various tools 
 - **Sentiment Analysis**:  
   Using **PySpark** and **Synapse Data Science** for text analytics and sentiment classification (positive, negative, neutral) on news data.
 
-- **Data Visualization**:  
-  Building **Power BI** dashboards to visualize sentiment trends, article analysis, and real-time updates.
+- **Data Visualisation**:  
+  Building **Power BI** dashboards to visualise sentiment trends, article analysis, and real-time updates.
 
 - **Real-time Alerts**:  
   Configuring **Data Activator** to trigger automated alerts based on sentiment thresholds (e.g., negative sentiment) to **Microsoft Teams**.
 
----
+
 
 
 
