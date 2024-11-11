@@ -19,7 +19,7 @@ The project will be divided into five major steps. I will utilise various tools 
 ### External Data Source:
 - **Bing News API**: For fetching the latest news articles related to the US election in Australia.
 
-### Analytics Engineering Technical Skills
+## Analytics Engineering Technical Skills
 
 - **ETL & Data Ingestion**:  
   Proficient with **Azure Data Factory** for data ingestion, connecting to APIs (Bing News API), and scheduling data pipelines.
