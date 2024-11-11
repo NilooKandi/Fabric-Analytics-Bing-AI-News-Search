@@ -52,6 +52,8 @@ Data Activator: Configuring real-time alerts based on sentiment thresholds, inte
 ### Environment Setups
 I created a resource group called `rg-fabric-bing-analytics` and used the marketplace to search for the Bing Search v7 API to create a Bing Search resource. I selected the **F1** pricing tier (3 calls per second and 1,000 calls per month) because it is free.
 
+```Query Parameter.md
+
 
 
 
