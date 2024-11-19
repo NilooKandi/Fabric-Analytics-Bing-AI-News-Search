@@ -1,9 +1,9 @@
-# Full Analytics Engineer Project in Microsoft Fabric for Bing News API (US Election News in Australia)
+# Full Analytics Engineer Project in Microsoft Fabric for Bing News API (News in Australia)
 ![image](https://github.com/user-attachments/assets/f3c26dce-6362-4c74-8958-567a5be01640)
 
 
 ## Project Overview
-In this project, I’m building a comprehensive data pipeline and analytics solution using Microsoft Fabric to collect, process, analyze, and visualize news data related to the US election, specifically focusing on how the election is covered in Australia. The goal is to create an end-to-end system that automatically ingests the latest news, processes and transforms that data, performs sentiment analysis to assess the tone of each news article, and then visualises the results through an interactive dashboard. Additionally, I’ll configure real-time alerts based on sentiment, sending notifications to Microsoft Teams whenever a negative sentiment is detected.
+In this project, I’m building a comprehensive data pipeline and analytics solution using Microsoft Fabric to collect, process, analyze, and visualise news data in Australia. The goal is to create an end-to-end system that automatically ingests the latest news, processes and transforms that data, performs sentiment analysis to assess the tone of each news article, and then visualises the results through an interactive dashboard. Additionally, I’ll configure real-time alerts based on sentiment, sending notifications to Microsoft Teams whenever a negative sentiment is detected.
 The project will be divided into five major steps. I will utilise various tools within Microsoft Fabric, including Data Factory, Synapse Data Engineering, Synapse Data Scientist, Power BI, and Data Activator. Using the Bing News API, I'll gather raw data, clean and transform it, run sentiment analysis, create a dashboard for monitoring trends, and configure real-time alerts.
 
 
@@ -17,7 +17,7 @@ The project will be divided into five major steps. I will utilise various tools 
 - **Data Activator**: For setting up real-time alerts based on sentiment.
 
 ### External Data Source:
-- **Bing News API**: For fetching the latest news articles related to the US election in Australia.
+- **Bing News API**: For fetching the latest news articles in Australia.
 
 ## Analytics Engineering Technical Skills
 
@@ -59,12 +59,12 @@ I created a lakehouse called `Bing_LH` to configure both the source and destinat
 - Design a pipeline in Data Factory to fetch data from Bing News.
 - Use the Copy Data activity to move data from the Bing News API to OneLake.
 - Set up a connection to the Bing News API using the REST API in the Data Factory.
-- Configure the API with necessary parameters such as query, filters, and API key. The query parameter retrieves up to 100 news articles related to the US election, published within the past week, and ensures the results are from Australia.
+- Configure the API with necessary parameters such as query, filters, and API key. The query parameter retrieves up to 100 news articles published within 24 hours and ensures the results are from Australia.
 [View the Query Parameter Sample](https://github.com/NilooKandi/Fabric-Analytics-Bing-News-Search/blob/main/Query%20Parameter.md)
 
 #### Destination Configuration:
 - The destination is set to the `Bing_LH` lakehouse.
-- A file path called `bing-us-election-news.json` is created.
+- A file path called `bing-news.json` is created.
 - The file format is set to **JSON**.
 
 ### Data Transformation with Incremental Loading
