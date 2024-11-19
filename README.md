@@ -1,5 +1,6 @@
 # Full Analytics Engineer Project in Microsoft Fabric for Bing News API (US Election News in Australia)
-![image](https://github.com/user-attachments/assets/11ce83b1-a3de-4a7d-b5bb-c72b047fbdbd)
+![image](https://github.com/user-attachments/assets/f3c26dce-6362-4c74-8958-567a5be01640)
+
 
 ## Project Overview
 In this project, I’m building a comprehensive data pipeline and analytics solution using Microsoft Fabric to collect, process, analyze, and visualize news data related to the US election, specifically focusing on how the election is covered in Australia. The goal is to create an end-to-end system that automatically ingests the latest news, processes and transforms that data, performs sentiment analysis to assess the tone of each news article, and then visualises the results through an interactive dashboard. Additionally, I’ll configure real-time alerts based on sentiment, sending notifications to Microsoft Teams whenever a negative sentiment is detected.
