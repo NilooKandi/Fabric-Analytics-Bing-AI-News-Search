@@ -1,9 +1,9 @@
-# Full Analytics Engineer Project in Microsoft Fabric for Bing News API (News in Australia)
+# End-to-End Analytics Project by Microsoft Fabric for Latest AI News (Bing API News)
 ![image](https://github.com/user-attachments/assets/f3c26dce-6362-4c74-8958-567a5be01640)
 
 
 ## Project Overview
-In this project, I’m building a comprehensive data pipeline and analytics solution using Microsoft Fabric to collect, process, analyze, and visualise news data in Australia. The goal is to create an end-to-end system that automatically ingests the latest news, processes and transforms that data, performs sentiment analysis to assess the tone of each news article, and then visualises the results through an interactive dashboard. Additionally, I’ll configure real-time alerts based on sentiment, sending notifications to Microsoft Teams whenever a negative sentiment is detected.
+In this project, I’m building a comprehensive data pipeline and analytics solution using Microsoft Fabric to collect, process, analyse, and visualise AI news data in Australia. The goal is to create an end-to-end system that automatically ingests the latest news in AI, processes and transforms that data, performs sentiment analysis to assess the tone of each news article, and then visualises the results through an interactive dashboard. Additionally, I’ll configure real-time alerts based on sentiment, sending notifications to Microsoft Teams whenever a negative sentiment is detected.
 The project will be divided into five major steps. I will utilise various tools within Microsoft Fabric, including Data Factory, Synapse Data Engineering, Synapse Data Scientist, Power BI, and Data Activator. Using the Bing News API, I'll gather raw data, clean and transform it, run sentiment analysis, create a dashboard for monitoring trends, and configure real-time alerts.
 
 
@@ -17,9 +17,8 @@ The project will be divided into five major steps. I will utilise various tools 
 - **Data Activator**: For setting up real-time alerts based on sentiment.
 
 ### External Data Source:
-- **Bing News API**: For fetching the latest news articles in Australia.
+- **Bing News API**: For fetching the latest AI news in Australia.
 
-## Analytics Engineering Technical Skills
 
 ### Analytics Engineering Technical Skills
 
