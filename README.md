@@ -68,7 +68,7 @@ I created a lakehouse called `Bing_LH` to configure both the source and destinat
 
 ### Data Transformation with Incremental Loading
 I used a Spark notebook to process the raw JSON file and transform it into a clean Delta table.
-
+[View ETL process here ](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/blob/main/process_bing_latest_AI_news.ipynb)
 
 
 
