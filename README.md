@@ -71,6 +71,7 @@ I used a Spark notebook to process the raw JSON file and transform it into a cle
 
 - [View ETL process here ](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/blob/main/process_bing_latest_AI_news.ipynb)
 
+# Data Science Process
 ### Sentiment Analysis with Incremental Loading
 
 For sentiment analysis, I leveraged SynapseML (previously known as MMLSpark), which is integrated into Microsoft Fabric. This open-source library provides pre-trained models for machine-learning tasks. In this case, I used its sentiment analysis capabilities to evaluate the emotional tone of AI news articles, processing the detailed descriptions in our news dataset to determine their sentiment.
