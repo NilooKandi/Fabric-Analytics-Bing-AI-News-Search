@@ -75,9 +75,17 @@ I used a Spark notebook to process the raw JSON file and transform it into a cle
 
 For sentiment analysis, I leveraged SynapseML (previously known as MMLSpark), which is integrated into Microsoft Fabric. This open-source library provides pre-trained models for machine-learning tasks. In this case, I used its sentiment analysis capabilities to evaluate the emotional tone of AI news articles, processing the detailed descriptions in our news dataset to determine their sentiment.
 
-- [View Sentiment Analysis here ]
+- [View Sentiment Analysis here ](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/blob/main/news_sentiment_analysis.ipynb)
 
+### Schedule Refresh
 
+To maintain up-to-date news analysis, I implemented an automated refresh schedule in Data Factory that runs daily at 8:00 AM. This scheduled refresh executes three components sequentially:
+
+1. The data ingestion pipeline
+2. The ETL_process_AI_news notebook for data processing
+3. The AI_news_sentiment_analysis notebook for sentiment evaluation
+
+This automation ensures we have fresh insights from the latest news data each morning.
 
 
 
