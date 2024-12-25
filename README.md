@@ -78,7 +78,9 @@ For sentiment analysis, I leveraged SynapseML (previously known as MMLSpark), wh
 
 - [View Sentiment Analysis here ](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/blob/main/news_sentiment_analysis.ipynb)
 
-### Schedule Refresh
+### Building Pipelines using Data Factory for Orchestration
+
+
 
 To maintain up-to-date news analysis, I implemented an automated refresh schedule in Data Factory that runs daily at 8:00 AM. This scheduled refresh executes three components sequentially:
 
