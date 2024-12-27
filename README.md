@@ -101,6 +101,8 @@ This automation ensures we have fresh insights from the latest news data each mo
 
 -[View KPIs here](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/tree/main)
 
+<img width="1192" alt="Screenshot 2024-12-27 173624" src="https://github.com/user-attachments/assets/a22e6cca-771d-4944-b29c-c77df287990c" />
+
 
 
 
