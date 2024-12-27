@@ -103,7 +103,16 @@ This automation ensures we have fresh insights from the latest news data each mo
 
 <img width="1192" alt="Screenshot 2024-12-27 173624" src="https://github.com/user-attachments/assets/a22e6cca-771d-4944-b29c-c77df287990c" />
 
+### Configure Alerts in Data Activator with Notifications on Microsoft Teams
 
+I have configured an alert and would like to receive a Microsoft Teams notification when the Negative Sentiment exceeds 15%.
+
+![image](https://github.com/user-attachments/assets/9f55cbaa-cd6a-4d17-83cb-a6eef6cf68e2)
+
+
+## Summary
+
+This project offered a great chance to demonstrate how Azure Data Services, now available as "items" within Microsoft Fabric, can be seamlessly integrated into an all-in-one analytics platform. The key services highlighted include Data Factory, Lakehouse, Pipelines, Power BI, and advanced capabilities in AI & Machine Learning, among others.
 
 
 
