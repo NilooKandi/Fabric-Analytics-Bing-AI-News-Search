@@ -89,6 +89,8 @@ To maintain up-to-date news analysis, I implemented an automated refresh schedul
 3. The AI_news_sentiment_analysis notebook for sentiment evaluation
 
 This automation ensures we have fresh insights from the latest news data each morning.
+![image](https://github.com/user-attachments/assets/7dee3066-eff4-497d-a19b-25766848d783)
+
 
 
 
