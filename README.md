@@ -61,6 +61,11 @@ I created a lakehouse called `Bing_LH` to configure both the source and destinat
 - Configure the API with necessary parameters such as query, filters, and API key. The query parameter retrieves up to 100 news articles published within 24 hours and ensures the results are from Australia.
 [View the Query Parameter Sample](https://github.com/NilooKandi/Fabric-Analytics-Bing-News-Search/blob/main/Query%20Parameter.md)
 
+#### Parameter Configuration
+
+I configured a parameter to make the pipeline more flexible by enabling it to accept different input values for each execution. This adaptability allows the pipeline to handle a variety of scenarios without the need to redesign it for each specific use case. Such a configuration is particularly useful in data integration, transformation, and orchestration tasks
+![image](https://github.com/user-attachments/assets/969ff858-4fab-4ca1-adee-d3e59ea5fdb3)
+
 #### Destination Configuration:
 - The destination is set to the `Bing_LH` lakehouse.
 - A file path called `bing-news.json` is created.
@@ -92,7 +97,7 @@ This automation ensures we have fresh insights from the latest news data each mo
 ![image](https://github.com/user-attachments/assets/7dee3066-eff4-497d-a19b-25766848d783)
 
 
-
+## Data Visualisation in Power BI
 
 
 
