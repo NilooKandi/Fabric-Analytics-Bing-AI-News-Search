@@ -80,7 +80,7 @@ For sentiment analysis, I leveraged SynapseML (previously known as MMLSpark), wh
 
 ### Building Pipelines using Data Factory for Orchestration
 
-
+![image](https://github.com/user-attachments/assets/508b5f9a-9ed6-4c2a-bb3b-5444c642304f)
 
 To maintain up-to-date news analysis, I implemented an automated refresh schedule in Data Factory that runs daily at 8:00 AM. This scheduled refresh executes three components sequentially:
 
