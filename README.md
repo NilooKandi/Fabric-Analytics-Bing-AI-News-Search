@@ -85,7 +85,7 @@ For sentiment analysis, I leveraged SynapseML (previously known as MMLSpark), wh
 
 ## Building Pipelines using Data Factory for Orchestration
 
-![image](https://github.com/user-attachments/assets/508b5f9a-9ed6-4c2a-bb3b-5444c642304f)
+![image](https://github.com/user-attachments/assets/8afd382d-5145-4208-acdd-1efd02ab1700)
 
 To maintain up-to-date news analysis, I implemented an automated refresh schedule in Data Factory that runs daily at 8:00 AM. This scheduled refresh executes three components sequentially:
 
@@ -98,6 +98,9 @@ This automation ensures we have fresh insights from the latest news data each mo
 
 
 ## Data Visualisation in Power BI
+
+-[View KPIs here](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/tree/main)
+
 
 
 
