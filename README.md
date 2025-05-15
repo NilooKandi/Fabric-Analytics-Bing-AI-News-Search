@@ -101,7 +101,7 @@ This automation ensures we have fresh insights from the latest news data each mo
 
 Below is the data visualisation and report of AI news from the past 24 hours, based on the time of this analysis. This can serve as a useful tool for anyone interested in tracking the sentiments surrounding AI news, providing insights into the overall tone and public perception. It allows curious individuals to easily follow trends and shifts in sentiment within the AI news landscape.
 
--[View KPIs here](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/tree/main)
+-[View KPIs here](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/blob/main/KPIs.md)
 
 ![image](https://github.com/user-attachments/assets/43395cf0-ded6-4e66-b123-f5422c0737db)
 
