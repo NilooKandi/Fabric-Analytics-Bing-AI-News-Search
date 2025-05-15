@@ -103,7 +103,8 @@ Below is the data visualisation and report of AI news from the past 24 hours, ba
 
 -[View KPIs here](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/tree/main)
 
-<img width="1192" alt="Screenshot 2024-12-27 173624" src="https://github.com/user-attachments/assets/a22e6cca-771d-4944-b29c-c77df287990c" />
+![image](https://github.com/user-attachments/assets/43395cf0-ded6-4e66-b123-f5422c0737db)
+
 
 ### Configure Alerts in Data Activator with Notifications on Microsoft Teams
 
