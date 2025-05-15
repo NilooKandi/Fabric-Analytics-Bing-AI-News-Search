@@ -74,7 +74,7 @@ I configured a parameter to make the pipeline more flexible by enabling it to ac
 ### Data Transformation with Incremental Loading
 I used a Spark notebook to process the raw JSON file and transform it into a clean Delta table.
 
-- [View ETL process here ](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/blob/main/process_bing_latest_AI_news.ipynb)
+- [View ETL process here ](https://github.com/NilooKandi/Fabric-Analytics-Bing-AI-News-Search/blob/main/process_bing_latest_AI_new.md)
 
 # Data Science Process
 ### Sentiment Analysis with Incremental Loading
